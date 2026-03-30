@@ -1,216 +1,219 @@
 <!DOCTYPE html>
-<html>
-  <head>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="favicon.png">
-    <title>Best Gye</title>
+    <title>Best Guys</title>
+    <meta name ="description" content="Best Guys Restaurant - افضل مطعم في تعلبايا">
+    <meta name="keywords" content="مطعم, حجز, تعلبايا,Best Guys">
     <style>
-      .h1{
-        color: rgb(126, 10, 10);
-      }
-      table ,th,td {
-        border:1px solid rgb(0, 0, 0);
-        border-collapse :collapse;
-        padding: 19px;
-        color:rgb(126, 10, 10)
-      }
-.dessert-table {
-    border: 2px solid rgb(126, 10, 10); 
-    border-collapse: collapse;
-    width: 80%; 
-    margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    display: table;
-}
+        body {
+            text-align: left ;
+            font-family: Arial, sans-serif;
+            background-color: #fffafb;
+            margin: 20px;
+        }
+        .h1 {
+            color: rgb(126, 10, 10);
+        }
+        table, th, td {
+            border: 1px solid rgb(0, 0, 0);
+            border-collapse: collapse;
+            padding: 19px;
+            color: rgb(126, 10, 10);
+            text-align: center;
+        }
+        .dessert-table {
+            border: 2px solid rgb(126, 10, 10); 
+            border-collapse: collapse;
+            width: 80%; 
+            margin: 20px auto;
+            display: table;
+        }
+        .dessert-table th {
+            background-color: rgb(126, 10, 10); 
+            color: white;
+            padding: 10px;
+        }
+        .dessert-table td {
+            border: 1px solid rgb(126, 10, 10);
+            padding: 8px;
+            background-color: #fff5f0; 
+        }
+        .booking-section {
+            border: 1px solid #ccc;
+            padding: 20px;
+            border-radius: 8px;
+            max-width: 400px;
+            margin-top: 30px;
+        }
+        .book-button {
+            background-color: rgb(126, 10, 10);
+            color: white;
+            border: 2px solid rgb(126, 10, 10);
+            height: 40px;
+            width: 120px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+        .book-button:hover {
+            background-color: white;
+            color: rgb(126, 10, 10);
+        }
+        .whats-button {
+            background-color: rgb(37, 211, 102);
+            color: white;
+            border: 2px solid rgb(37, 211, 102);
+            width: 120px;
+            height: 40px;
+            cursor: pointer;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+        .whats-button:hover {
+            background-color: white;
+            color: rgb(37, 211, 102);
+        }
+        label {
+            cursor: pointer;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+     <body style="direction: ltr; text-align: left;">
+    <h1 class="h1">Best Guys Restorant</h1>
+    <p>Best food, best place, best person, best price</p>
 
-.dessert-table th {
-    background-color:rgb(126, 10, 10); 
-    color: white;
-    padding: 10px;
-}
+    <h3>Food Menu:</h3>
+    <ul type="disc">
+        <li>Breakfast</li>
+        <li>Lunch</li>
+        <li>Dinner</li>
+    </ul>
 
-.dessert-table td {
-    border: 1px solid rgb(126, 10, 10);
-    padding: 8px;
-    text-align: center;
-    background-color: #fff5f0; 
-}
-.book-button {
-    background-color:rgb(126, 10, 10);
-    color: white;
-    border: none;
-    height: 34px;
-    width: 111px;
-    border-radius: 2px;
-    border-style:solid;
-    cursor: pointer;
-    border-color: rgb(126, 10, 10);
-    margin-left: 56px;
-    transition: opacity 0.15s;
-}
- .whats-button{
-  background-color: rgb(37,211,102);
-  color:white;
-  border:none;
-  width: 78px;
-  height: 34px;
-  cursor: pointer;
-  margin-left: 56px;
+    <h3>Varieties:</h3>
+    <table>
+        <tr>
+            <th>III</th>
+            <th>Breakfast</th>
+            <th>Lunch</th>
+            <th>Dinner</th>
+            <th>Price</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Egg</td>
+            <td>Pasta</td>
+            <td>Fish</td>
+            <td>49$</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Sushi</td>
+            <td>Sushi</td>
+            <td>Sushi</td>
+            <td>55$</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Grilled Cheese</td>
+            <td>Alfredo</td>
+            <td>Steak</td>
+            <td>49$</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Chicken Salad</td>
+            <td>Taco</td>
+            <td>Pizza</td>
+            <td>35$</td>
+        </tr>
+    </table>
 
-  border-radius: 9px;
-  border-style: solid;
-  border-color: rgb(37,211,102);
-  transition: opacity 0.15s;
- }
-  </style>
-    <h1 class = "h1">Best Gye Restorant </h1>
-    <p>Best food best place best person best price</p>
-  </head>
-  <body>
-<h3>Food Menu is like:</h3>
-<ul type ="disc">
-<li>breakfast.</li>
-<li>lunch.</li>
-<li>dinner.</li>
-</ul>
-  <h3>Varieties:</h3>
-  <table>
-    <tr>
-      <th>III</th>
-      <th>Breakfast</th>
-      <th>Lunch</th>
-      <th>Dinner</th>
-      <th>Price</th>
-      </tr>
-      <tr>
-        <td>1</td>
-      <td>egg</td>
-      <td>paste</td>
-      <td>Fish</td>
-      <td>49$</td>
-      </tr>
-      <tr>
-        <td>2</td>
-        <td>suchi</td>
-        <td>suchi</td>
-        <td>suchi</td>
-        <td>55$</td>
-      </tr>
-      <tr>
-        <td>3</td>
-         <td>Grilled chess</td>
-         <td>Alfrido</td>
-         <td>stick</td>
-         <td>49$</td>
-      </tr>
-      <tr>
-        <td>4</td>
-          <td>chicken salad</td>
-          <td>tacko</td>
-          <td>pizza</td>
-          <td>35$</td>
-      </tr>
-  </table>
-  <h3>Juice & Sweets Menu</h3>
-<table class="dessert-table">
-    <tr>
-        <th>Item</th>
-        <th>Price</th>
-    </tr>
-    <tr>
-        <td>Orange Juice</td>
-        <td>4$</td>
-    </tr>
-    <tr>
-        <td>Grape Juice </td>
-        <td>7$</td>
-    </tr>
-    <tr>
-        <td>Carrot Juice</td>
-        <td>6$</td>
-    </tr>
-    <tr>
-      <td>Mango Juice</td>
-      <td>8$</td>
-    </tr>
-    <tr>
-      <td>Cherry Juice</td>
-      <td>5$</td>
-    </tr>
-    <tr>
-      <td>Apple Juice</td>
-      <td>6$</td>
-    </tr>
-    <tr>
-      <td>Pear Juice</td>
-      <td>6$</td>
-    </tr>
-    <tr>
-      <td>Lime Juice</td>
-      <td>7$</td>
-    </tr>
-</table>
-  </body>
-  <h3>book now</h3>
-  <form action ="#">
-    <field set>
-      <p><label> Name:</label>
-      <input type = "text"></p>
-       <p><label>Phone:</label>
-       <input type = "text"></p>  
-       <p>choose set:
-       <input type = "checkbox">1</p>
-       <input type = "checkbox">2</p>
-       <input type = "checkbox">3</p>
-       <input type = "checkbox">4</p>
-    </field set>
+    <h3>Juice & Sweets Menu:</h3>
+    <table class="dessert-table">
+        <tr>
+            <th>Item</th>
+            <th>Price</th>
+        </tr>
+        <tr><td>Orange Juice</td><td>4$</td></tr>
+        <tr><td>Grape Juice</td><td>7$</td></tr>
+        <tr><td>Carrot Juice</td><td>6$</td></tr>
+        <tr><td>Mango Juice</td><td>8$</td></tr>
+        <tr><td>Cherry Juice</td><td>5$</td></tr>
+        <tr><td>Apple Juice</td><td>6$</td></tr>
+        <tr><td>Pear Juice</td><td>6$</td></tr>
+        <tr><td>Lime Juice</td><td>7$</td></tr>
+    </table>
+
+<div style="direction: trl; text-align: left; padding: 20px;">
+    <h3 style="color: rgb(126, 10, 10); font-weight: normal;">book now</h3>
     
-    <button type="button" class="book-button" onclick="sendBooking()">
-    Book
-</button>
-<script>
-function sendBooking() {
-    try {
-        const myNumber = "96178715306"; 
+    <div style="border: none;"> 
+        <p style="font-weight: normal;">
+            <label>Name:</label>
+            <input type="text" id="userName">
+        </p>
+        <p style="font-weight: normal;">
+            <label>Phone:</label>
+            <input type="text" id="userPhone">
+        </p>  
+        <p style="font-weight: normal;">choose set:
+            <label><input type="checkbox" name="set" value="1"> 1</label>
+            <label><input type="checkbox" name="set" value="2"> 2</label>
+            <label><input type="checkbox" name="set" value="3"> 3</label>
+            <label><input type="checkbox" name="set" value="4"> 4</label>
+        </p>
+    </div>
+    
+    <div style="margin-top: 20px;">
+        <button type="button" class="book-button" onclick="sendBooking()">Book</button>
+        <button type="button" class="whats-button" onclick="window.open('https://wa.me/96178715306','_blank')">WhatsApp</button>
+    </div>
+</div>
 
-        const allInputs = document.querySelectorAll('input[type="text"]');
-        const name = allInputs[0] ? allInputs[0].value : "";
-        const phone = allInputs[1] ? allInputs[1].value : "";
-        
-        let selectedSets = [];
-        const checkboxes = document.querySelectorAll('input[type="checkbox"]');
-        checkboxes.forEach((box) => {
-        if (box.checked) { 
+    <script>
+    function sendBooking() {
+        try {
+            const myNumber = "96178715306"; 
 
-        let labelText = box.parentElement.innerText.trim();
+            const name = document.getElementById('userName').value.trim();
+            const phone = document.getElementById('userPhone').value.trim();
+            
+            let selectedSets = [];
+            const checkboxes = document.querySelectorAll('input[name="set"]:checked');
+            checkboxes.forEach((box) => {
+                selectedSets.push(box.value);
+            });
 
-        let setNumber = labelText.replace(/choose set:|set:|choose/gi, '').trim();
-        selectedSets.push(setNumber);
+            if (!name || !phone) { 
+                alert("يا غالي , خدلك شي !");
+                return;
+            }
+
+            if (selectedSets.length === 0) {
+                alert("يرجى اختيار مجموعة واحدة على الأقل!");
+                return;
+            }
+
+            const message = `*طلب حجز جديد من موقع Best Gye*:%0A%0A` +
+                            `- *الاسم:* ${name}%0A` +
+                            `- *الرقم:* ${phone}%0A` +
+                            `- *المجموعات المختارة:* ${selectedSets.join(', ')}`;
+            
+            const url = `https://wa.me/${myNumber}?text=${message}`;
+            
+            window.open(url, '_blank');
+            
+        } catch (error) {
+            alert("حدث خطأ بسيط في النظام!");
+            console.error(error);
         }
-        });
-
-
-        if (!name || !phone) { 
-            alert("يا غالي عبّي الاسم والرقم أولاً!");
-            return;
-        }
-        const message = `طلب حجز جديد:%0A- الاسم: ${name}%0A- الرقم: ${phone}%0A- المجموعات: ${selectedSets.join(', ')}`;
-        const url = `https://wa.me/${myNumber}?text=${message}`;
-        
-        window.open(url, '_blank');
-        
-    } catch (error) {
-        alert("حدث خطأ بسيط، تأكد من كود الـ HTML");
-        console.error(error);
     }
-}
-</script>
-    <button type ="button"
-    class ="whats-button" onclick="window 
-    .open('https://wa.me/96178715306','_blank'); return false;">
-      WhatsApp
-    </button>
-    </a>
-  </form>
+    </script>
+</body>
 </html>
-    
